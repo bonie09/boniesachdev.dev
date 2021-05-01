@@ -1,0 +1,87 @@
+.hero-text{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    span{
+        color: #037FFF;
+    }
+}
+
+.hero-sub-text{
+    text-align: center;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: #037FFF;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: .3rem;
+        left: 0;
+        bottom: 0;
+        background-color: #a4acc4;;
+        transition: all 0.4s ease-in-out;
+    }
+    &:hover::after{
+        width: 100%;
+    }
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-holder{
+        margin-right: 1rem;
+        .icon{
+           font-size: 2.8rem;
+           color: #a4acc4;
+           transition: all .4s ease-in-out;
+        }
+        .fb:hover{
+            color: blue;
+        }
+        .gh:hover{
+            color: rgba(212, 45, 212, 0.788);
+        }
+        .li:hover{
+            color: #0077b5;
+        }
+        .lc:hover{
+            color: #eb9e10;
+        }
+        .hn:hover{
+            color: blue;
+        }
+        .ig:hover{
+            color: #8a3ab9;
+        }
+    }
+}
+
+.footer{
+    width: 100%;
+    border-top: 1px solid #2e344e;
+    p{
+        text-align: center;
+        padding: 1rem 0;
+    }
+}
