@@ -27,7 +27,7 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
-                            Contact
+                            About Me
                         </NavLink>
                     </li>
                 </ul>

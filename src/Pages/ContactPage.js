@@ -1,11 +1,11 @@
 import React from 'react'
-import avatar from '../images/avatar.jpg';
+import symbol from '../images/symbol.png';
+import symbol1 from '../images/symbol1.png';
 import Tittle from '../Components/Tittle'
-import {faFacebook} from '@fortawesome/free-brands-svg-icons';
+import {faGoogle} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 import {faInstagram} from '@fortawesome/free-brands-svg-icons';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Icon } from '@iconify/react';
 import leetcodeIcon from '@iconify-icons/simple-icons/leetcode';
@@ -15,34 +15,36 @@ import ServiceSection from '../Components/ServiceSection';
 const ContactPage = () => {
     return (
         <div>
-            <Tittle title={'Services'} span={'Services'} />
+            <div className="service-title">
+                <Tittle title={'Services'} span={'Services'} />
+            </div>
             <div className="services-container">
-                <ServiceSection image={avatar} title={'Web design'} text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}/>
-                <ServiceSection image={avatar} title={'Artificial Intelligence'} text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}/>
+                <ServiceSection image={symbol1} title={'Associate Software Engineer at Accenture'} text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}/>
+                <ServiceSection image={symbol} title={'Web Developer Intern at Sarvaswa Venture (OPC) Pvt. Ltd.'} text={'Executed complete cycle from analyzed requirements and designed, developed and implemented enterprise similar system using different web technologies. Tech Stack: HTML5, CSS3, JavaScript, jQuery, AJAX, PHP, MySQL, LARAVEL PHP Framework.'}/>
             </div>
             <div className="contact-title">
                 <Tittle title={"Contact"} span={"Contact"} />
             </div>
             <div className="contact-section">
                 <div className="icons">
-                    <Link className="icon-holder">
+                    <a href={'https://www.linkedin.com/in/bonie-sachdev/'} className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedinIn} className="icon li"/>
-                    </Link>
-                    <Link className="icon-holder">
+                    </a>
+                    <a href={'https://github.com/bonie09'} className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh"/>
-                    </Link>
-                    <Link className="icon-holder">
+                    </a>
+                    <a href={'https://leetcode.com/bonie09/'} className="icon-holder">
                         <Icon icon={leetcodeIcon} className="icon lc"/>
-                    </Link>
-                    <Link className="icon-holder">
+                    </a>
+                    <a href={'http://bonie09.hashnode.dev/'} className="icon-holder">
                         <Icon icon={hashnodeIcon} className="icon hn"/>
-                    </Link>
-                    <Link className="icon-holder">
+                    </a>
+                    <a href={'https://www.instagram.com/bony.sachdev/'} className="icon-holder">
                         <FontAwesomeIcon icon={faInstagram} className="icon ig"/>
-                    </Link>
-                    <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
-                    </Link>
+                    </a>
+                    <a href={"mailto:bonysachdev99@gmail.com"} className="icon-holder">
+                        <FontAwesomeIcon icon={faGoogle} className="icon mt"/>
+                    </a>
                 </div>
             </div>
         </div>
