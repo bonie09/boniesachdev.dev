@@ -23,26 +23,22 @@ const SkillsPage = () => {
         <div className="SkillsPage">
             <Tittle title={"My Skills"} span={"My Skills"} />
             <div className="skill-container">
-                <SkillSection skill={'C'} img={<img src={c} alt=""></img>}/>
-                <SkillSection skill={'Python'} img={<img src={python} alt=""></img>}/>
-                <SkillSection skill={'JAVA'} img={<img src={java} alt=""></img>}/>
-                <SkillSection skill={'HTML5'} img={<img src={html} alt=""></img>}/>
-                <SkillSection skill={'CSS3'} img={<img src={css} alt=""></img>}/>
-                <SkillSection skill={'JavaScript'} img={<img src={js} alt=""></img>}/>
-                <SkillSection skill={'jQuery'} img={<img src={jquery} alt=""></img>}/>
-                <SkillSection skill={'JSON'} img={<img src={json} alt=""></img>}/>
-                <SkillSection skill={'AJAX'} img={<img src={ajax} alt=""></img>}/>
-                <SkillSection skill={'PHP'} img={<img src={php} alt=""></img>}/>
-                <SkillSection skill={'XML'} img={<img src={xml} alt=""></img>}/>
-                <SkillSection skill={'MySQL'} img={<img src={mysql} alt=""></img>}/>
-                <SkillSection skill={'OracleDB'} img={<img src={oracle} alt=""></img>}/>
-                <SkillSection skill={'Bootstrap'} img={<img src={bootstrap} alt=""></img>}/>
-                <SkillSection skill={'LARAVEL PHP'} img={<img src={laravel} alt=""></img>}/>
-                <SkillSection skill={'React Js'} img={<img src={react} alt=""></img>}/>
-                {/* <SkillSection skill={'Machine Learning'} img={<img src={avatar}></img>}/>
-                <SkillSection skill={'Deep Learning'} img={<img src={avatar}></img>}/>
-                <SkillSection skill={'Image Processing'} img={<img src={avatar}></img>}/>
-                <SkillSection skill={'Semantic Segmentation'} img={<img src={avatar}></img>}/> */}
+                <SkillSection skill={'C'} img={<img src={c} alt="" title="C"></img>}/>
+                <SkillSection skill={'Python'} img={<img src={python} alt="" title="python"></img>}/>
+                <SkillSection skill={'JAVA'} img={<img src={java} alt="" title="Java"></img>}/>
+                <SkillSection skill={'HTML5'} img={<img src={html} alt="" title="HTML5"></img>}/>
+                <SkillSection skill={'CSS3'} img={<img src={css} alt="" title="CSS3"></img>}/>
+                <SkillSection skill={'JavaScript'} img={<img src={js} alt="" title="JavaScript"></img>}/>
+                <SkillSection skill={'jQuery'} img={<img src={jquery} alt="" title="jQuery"></img>}/>
+                <SkillSection skill={'JSON'} img={<img src={json} alt="" title="JSON"></img>}/>
+                <SkillSection skill={'AJAX'} img={<img src={ajax} alt="" title="AJAX"></img>}/>
+                <SkillSection skill={'PHP'} img={<img src={php} alt="" title="PHP"></img>}/>
+                <SkillSection skill={'XML'} img={<img src={xml} alt="" title="XML"></img>}/>
+                <SkillSection skill={'MySQL'} img={<img src={mysql} alt="" title="MySQL"></img>}/>
+                <SkillSection skill={'OracleDB'} img={<img src={oracle} alt="" title="OracleDB"></img>}/>
+                <SkillSection skill={'Bootstrap'} img={<img src={bootstrap} alt="" title="Bootstrap"></img>}/>
+                <SkillSection skill={'LARAVEL PHP'} img={<img src={laravel} alt="" title="Laravel PHP"></img>}/>
+                <SkillSection skill={'React Js'} img={<img src={react} alt="" title="React JS"></img>}/>
             </div>
         </div>
     )
