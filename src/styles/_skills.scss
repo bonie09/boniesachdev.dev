@@ -1,0 +1,24 @@
+.SkillSection{
+    margin-left: 10%;
+    padding-top: 3rem;
+    .skills-title{
+        font-size: 1.5rem;
+        width: 50%;
+    }
+    .profile{
+        left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        img{
+            width: 40%;
+            border-radius: 10%;
+            margin-bottom: 1rem;
+        }
+    }
+}
+.skill-container{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
