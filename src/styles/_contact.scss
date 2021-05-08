@@ -62,6 +62,9 @@
     align-items: center;
     justify-content: center;
     padding: 1.5rem 0;
+    @media screen and (max-width:700px){
+        flex-direction: column;
+    }
     .icon-holder{
         margin-right: 2rem;
         .icon{
