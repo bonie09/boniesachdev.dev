@@ -1,10 +1,10 @@
 import './App.scss';
 import Navbar from './Components/Navbar'; 
 import HomePage from './Pages/HomePage';
-import {Route} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 import SkillsPage from './Pages/SkillsPage';
 import ProjectPage from './Pages/ProjectPage';
-import ContactPage from './Pages/ContactPage';
+import AboutPage from './Pages/AboutPage';
 import { useState } from 'react';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       </div>
       <div className="main-content">
         <div className="content">
-          <switch>
+          <Switch>
             <Route path="/" exact>
               <div className="bg-image"></div>
               <div className="bg-text">
@@ -38,10 +38,10 @@ function App() {
             <Route path="/projects" exact>
                 <ProjectPage />
             </Route>
-            <Route path="/contact" exact>
-                <ContactPage />
+            <Route path="/about" exact>
+                <AboutPage />
             </Route>
-          </switch>
+          </Switch>
         </div>
       </div>
     </div>

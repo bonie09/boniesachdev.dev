@@ -12,15 +12,15 @@ import leetcodeIcon from '@iconify-icons/simple-icons/leetcode';
 import hashnodeIcon from '@iconify-icons/simple-icons/hashnode';
 import ServiceSection from '../Components/ServiceSection';
 
-const ContactPage = () => {
+const AboutPage = () => {
     return (
         <div>
             <div className="service-title">
-                <Tittle title={'Services'} span={'Services'} />
+                <Tittle title={'Experience'} span={'Experience'} />
             </div>
             <div className="services-container">
-                <ServiceSection image={symbol1} title={'Associate Software Engineer at Accenture'} text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}/>
-                <ServiceSection image={symbol} title={'Web Developer Intern at Sarvaswa Venture (OPC) Pvt. Ltd.'} text={'Executed complete cycle from analyzed requirements and designed, developed and implemented enterprise similar system using different web technologies. Tech Stack: HTML5, CSS3, JavaScript, jQuery, AJAX, PHP, MySQL, LARAVEL PHP Framework.'}/>
+                <ServiceSection image={symbol1} title={'Associate Software Engineer at Accenture'}/>
+                <ServiceSection image={symbol} title={'Web Developer Intern at Sarvaswa Venture (OPC) Pvt. Ltd.'}/>
             </div>
             <div className="contact-title">
                 <Tittle title={"Contact"} span={"Contact"} />
@@ -51,4 +51,4 @@ const ContactPage = () => {
     )
 }
 
-export default ContactPage
+export default AboutPage

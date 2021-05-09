@@ -1,7 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 const HomePage = () => {
+    const openResume = () => {
+        window.location.href = "https://drive.google.com/file/d/1HVHg7fMo7XoUFXjqjK-zdi-9uCJXLa8b/view?usp=sharing"
+    }
     return (
         <div className="HomePage">
             <header className="hero">
@@ -17,8 +19,7 @@ const HomePage = () => {
                     Engineering College.
                 </p>
                 <div className="work-section">
-                    <Link to="/skills" className="btn" style={{float: 'left'}}>Click here for Skills</Link>
-                    <Link to="/projects" className="btn" style={{float: 'right'}}>Latest work</Link>
+                <button onClick={openResume} className="btn">Download Resume</button>
                 </div>
             </header>
         </div> 
