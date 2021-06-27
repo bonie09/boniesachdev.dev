@@ -1,6 +1,6 @@
 import React from 'react'
-import symbol from '../images/symbol.png';
-import symbol1 from '../images/symbol1.png';
+import symbol from '../images/symbol.jpg';
+import symbol1 from '../images/Symbol1.jpg';
 import Tittle from '../Components/Tittle'
 import {faGoogle} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
@@ -19,8 +19,8 @@ const AboutPage = () => {
                 <Tittle title={'Experience'} span={'Experience'} />
             </div>
             <div className="services-container">
-                <ServiceSection image={symbol1} title={'Associate Software Engineer at Accenture'}/>
-                <ServiceSection image={symbol} title={'Web Developer Intern at Sarvaswa Venture (OPC) Pvt. Ltd.'}/>
+                <ServiceSection image={symbol} title={'Associate Software Engineer at Accenture'}/>
+                <ServiceSection image={symbol1} title={'Web Developer Intern at Sarvaswa Venture (OPC) Pvt. Ltd.'}/>
             </div>
             <div className="contact-title">
                 <Tittle title={"Contact"} span={"Contact"} />
