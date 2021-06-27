@@ -6,6 +6,7 @@ import SkillsPage from './Pages/SkillsPage';
 import ProjectPage from './Pages/ProjectPage';
 import AboutPage from './Pages/AboutPage';
 import { useState } from 'react';
+import React, { Component }  from 'react';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
