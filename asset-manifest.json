@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/boniesachdev.dev/static/css/main.e1d4559b.chunk.css",
-    "main.js": "/boniesachdev.dev/static/js/main.af0f7aeb.chunk.js",
-    "main.js.map": "/boniesachdev.dev/static/js/main.af0f7aeb.chunk.js.map",
+    "main.css": "/boniesachdev.dev/static/css/main.85bfde6f.chunk.css",
+    "main.js": "/boniesachdev.dev/static/js/main.df7cb8fb.chunk.js",
+    "main.js.map": "/boniesachdev.dev/static/js/main.df7cb8fb.chunk.js.map",
     "runtime-main.js": "/boniesachdev.dev/static/js/runtime-main.5cf40aa0.js",
     "runtime-main.js.map": "/boniesachdev.dev/static/js/runtime-main.5cf40aa0.js.map",
     "static/js/2.c0b766ca.chunk.js": "/boniesachdev.dev/static/js/2.c0b766ca.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.7887991d.chunk.js": "/boniesachdev.dev/static/js/3.7887991d.chunk.js",
     "static/js/3.7887991d.chunk.js.map": "/boniesachdev.dev/static/js/3.7887991d.chunk.js.map",
     "index.html": "/boniesachdev.dev/index.html",
-    "static/css/main.e1d4559b.chunk.css.map": "/boniesachdev.dev/static/css/main.e1d4559b.chunk.css.map",
+    "static/css/main.85bfde6f.chunk.css.map": "/boniesachdev.dev/static/css/main.85bfde6f.chunk.css.map",
     "static/js/2.c0b766ca.chunk.js.LICENSE.txt": "/boniesachdev.dev/static/js/2.c0b766ca.chunk.js.LICENSE.txt",
     "static/media/HTR.2924b49d.gif": "/boniesachdev.dev/static/media/HTR.2924b49d.gif",
     "static/media/PD.6a68bc8f.svg": "/boniesachdev.dev/static/media/PD.6a68bc8f.svg",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.5cf40aa0.js",
     "static/js/2.c0b766ca.chunk.js",
-    "static/css/main.e1d4559b.chunk.css",
-    "static/js/main.af0f7aeb.chunk.js"
+    "static/css/main.85bfde6f.chunk.css",
+    "static/js/main.df7cb8fb.chunk.js"
   ]
 }
