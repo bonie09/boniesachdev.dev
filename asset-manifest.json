@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/boniesachdev.dev/static/css/main.572fa5ab.chunk.css",
-    "main.js": "/boniesachdev.dev/static/js/main.2eeb8ac3.chunk.js",
-    "main.js.map": "/boniesachdev.dev/static/js/main.2eeb8ac3.chunk.js.map",
+    "main.css": "/boniesachdev.dev/static/css/main.e1d4559b.chunk.css",
+    "main.js": "/boniesachdev.dev/static/js/main.9a792390.chunk.js",
+    "main.js.map": "/boniesachdev.dev/static/js/main.9a792390.chunk.js.map",
     "runtime-main.js": "/boniesachdev.dev/static/js/runtime-main.5cf40aa0.js",
     "runtime-main.js.map": "/boniesachdev.dev/static/js/runtime-main.5cf40aa0.js.map",
     "static/js/2.c0b766ca.chunk.js": "/boniesachdev.dev/static/js/2.c0b766ca.chunk.js",
@@ -10,16 +10,16 @@
     "static/js/3.7887991d.chunk.js": "/boniesachdev.dev/static/js/3.7887991d.chunk.js",
     "static/js/3.7887991d.chunk.js.map": "/boniesachdev.dev/static/js/3.7887991d.chunk.js.map",
     "index.html": "/boniesachdev.dev/index.html",
-    "static/css/main.572fa5ab.chunk.css.map": "/boniesachdev.dev/static/css/main.572fa5ab.chunk.css.map",
+    "static/css/main.e1d4559b.chunk.css.map": "/boniesachdev.dev/static/css/main.e1d4559b.chunk.css.map",
     "static/js/2.c0b766ca.chunk.js.LICENSE.txt": "/boniesachdev.dev/static/js/2.c0b766ca.chunk.js.LICENSE.txt",
     "static/media/HTR.2924b49d.gif": "/boniesachdev.dev/static/media/HTR.2924b49d.gif",
-    "static/media/PD.7b461d96.gif": "/boniesachdev.dev/static/media/PD.7b461d96.gif",
-    "static/media/Symbol1.d7152711.jpg": "/boniesachdev.dev/static/media/Symbol1.d7152711.jpg",
+    "static/media/PD.6a68bc8f.svg": "/boniesachdev.dev/static/media/PD.6a68bc8f.svg",
     "static/media/ajax.80c34709.png": "/boniesachdev.dev/static/media/ajax.80c34709.png",
+    "static/media/avatar.6fcca294.svg": "/boniesachdev.dev/static/media/avatar.6fcca294.svg",
     "static/media/App.scss": "/boniesachdev.dev/static/media/bg-image.d044bcca.gif",
     "static/media/bootstrap.fd3cb129.png": "/boniesachdev.dev/static/media/bootstrap.fd3cb129.png",
     "static/media/c.867c839c.png": "/boniesachdev.dev/static/media/c.867c839c.png",
-    "static/media/chat.386553c3.gif": "/boniesachdev.dev/static/media/chat.386553c3.gif",
+    "static/media/chat.f6a17e7a.svg": "/boniesachdev.dev/static/media/chat.f6a17e7a.svg",
     "static/media/css.06a2be77.png": "/boniesachdev.dev/static/media/css.06a2be77.png",
     "static/media/dice.90ca6868.gif": "/boniesachdev.dev/static/media/dice.90ca6868.gif",
     "static/media/html.cf66b53d.png": "/boniesachdev.dev/static/media/html.cf66b53d.png",
@@ -33,15 +33,16 @@
     "static/media/php.2a114a74.png": "/boniesachdev.dev/static/media/php.2a114a74.png",
     "static/media/python.0b1cedef.png": "/boniesachdev.dev/static/media/python.0b1cedef.png",
     "static/media/react.dd495beb.png": "/boniesachdev.dev/static/media/react.dd495beb.png",
-    "static/media/shop.06ed11bc.gif": "/boniesachdev.dev/static/media/shop.06ed11bc.gif",
-    "static/media/stock.aede59da.gif": "/boniesachdev.dev/static/media/stock.aede59da.gif",
-    "static/media/symbol.08048737.jpg": "/boniesachdev.dev/static/media/symbol.08048737.jpg",
+    "static/media/shop.7e6ae929.svg": "/boniesachdev.dev/static/media/shop.7e6ae929.svg",
+    "static/media/stock.e3801318.svg": "/boniesachdev.dev/static/media/stock.e3801318.svg",
+    "static/media/symbol.b5ab1812.svg": "/boniesachdev.dev/static/media/symbol.b5ab1812.svg",
+    "static/media/symbol1.9ede4f94.svg": "/boniesachdev.dev/static/media/symbol1.9ede4f94.svg",
     "static/media/xml.23cbeaf4.png": "/boniesachdev.dev/static/media/xml.23cbeaf4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5cf40aa0.js",
     "static/js/2.c0b766ca.chunk.js",
-    "static/css/main.572fa5ab.chunk.css",
-    "static/js/main.2eeb8ac3.chunk.js"
+    "static/css/main.e1d4559b.chunk.css",
+    "static/js/main.9a792390.chunk.js"
   ]
 }
