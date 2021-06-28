@@ -6,7 +6,7 @@ import SkillsPage from './Pages/SkillsPage';
 import ProjectPage from './Pages/ProjectPage';
 import AboutPage from './Pages/AboutPage';
 import { useState } from 'react';
-import React, { Component }  from 'react';
+import React  from 'react';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -27,7 +27,7 @@ function App() {
       <div className="main-content">
         <div className="content">
           <Switch>
-            <Route path="/boniesachdev.dev/" exact>
+            <Route path="/" exact>
               <div className="bg-image"></div>
               <div className="bg-text">
                   <HomePage />

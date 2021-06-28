@@ -32,7 +32,7 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <footer className="footer">
-                    <p>2021 Bonie Sachdev</p>
+                    <p>Designed by Bonie Sachdev - Feel free to fork this repository</p>
                 </footer>
             </nav>
         </div>

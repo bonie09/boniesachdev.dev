@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomePage = () => {
     const openResume = () => {
-        window.location.href = "https://drive.google.com/file/d/1HVHg7fMo7XoUFXjqjK-zdi-9uCJXLa8b/view?usp=sharing"
+        window.location.href = "https://drive.google.com/file/d/1Pyy0toBFhYWbXbqgm_66QVyy0O1lt_sC/view?usp=sharing"
     }
     return (
         <div className="HomePage">
