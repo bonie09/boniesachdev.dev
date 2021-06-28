@@ -27,7 +27,7 @@ function App() {
       <div className="main-content">
         <div className="content">
           <Switch>
-            <Route path="/" exact>
+            <Route path="/boniesachdev.dev/" exact>
               <div className="bg-image"></div>
               <div className="bg-text">
                   <HomePage />

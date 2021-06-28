@@ -1,9 +1,9 @@
 import htr from '../images/projects images/HTR.gif';
-import pd from '../images/projects images/PD.gif';
-import chat from '../images/projects images/chat.gif';
-import stock from '../images/projects images/stock.gif';
+import pd from '../images/projects images/PD.svg';
+import chat from '../images/projects images/chat.svg';
+import stock from '../images/projects images/stock.svg';
 import dice from '../images/projects images/dice.gif';
-import shop from '../images/projects images/shop.gif';
+import shop from '../images/projects images/shop.svg';
 
 const allprojects = [
     {

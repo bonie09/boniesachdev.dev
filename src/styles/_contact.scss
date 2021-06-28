@@ -16,6 +16,9 @@
             width: 60%;
             margin-bottom: 1rem;
         }
+        @media screen and (max-width:500px) {
+            width: 80%;
+        }
         &:hover{
             border-top: 8px solid #037FFF;
         }
