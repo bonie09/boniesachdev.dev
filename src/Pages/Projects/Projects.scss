@@ -1,0 +1,20 @@
+@import '../../styles/GlobalStyle.scss';
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px 0px;
+    margin: 0px auto;
+}
+
+.title {
+    font-family: $fontStyle;
+    font-size: $titleSize;
+}
+
+@media (max-width: $tablet) {
+    .projectContainer {
+        justify-content: space-around;
+    }
+}

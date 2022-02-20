@@ -1,0 +1,117 @@
+@import '../../styles/GlobalStyle.scss';
+
+.skills-main-div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px 0px;
+    margin: 0px auto;
+}
+
+.skillContainer {
+    display: flex;
+}
+
+.lottieContainer {
+    width: 150rem;  
+}
+
+.skillsDisplay {
+    padding: 3rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    font-family: $fontStyle;
+    color: $titleColor;
+}
+
+.titleDark {
+    font-size: 3rem;
+    text-align: center;
+    font-family: $fontStyle;
+    color: white;
+}
+
+.subtitle {
+    font-size: $subTitleSize;
+    text-align: center;
+    font-family: $fontStyle;
+    color: $subTitleColor;
+}
+
+.subtitleDark {
+    font-size: 1rem;
+    text-align: center;
+    font-family: $fontStyle;
+    color: $subTitleColorDark;
+}
+
+.skillDetails {
+    font-family: $fontStyle;
+    color: $subTitleColor;
+}
+
+.skillDetailsDark {
+    font-family: $fontStyle;
+    color: $subTitleColorDark;
+}
+
+.aboutDetails {
+    padding: 3rem;
+}
+
+.baffle-text{
+    display: block;
+}
+
+@media (max-width: $tablet) {
+    .skillContainer {
+        display: block;
+    }
+    .lottieContainer {
+        display: flex;
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        order: 2;
+    }
+    .skillDetails {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .skills-main-div {
+        flex-direction: column;
+    }
+}
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  .software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .software-skill-inline > i {
+    color: $subTitleSize;
+  }
+  
+  .software-skill-inline > i:hover {
+    color: $skillsColor;
+  }
+  .software-skill-inline > p {
+    color: $subTitleSize;
+    font-size: 10px;
+  }
+  .software-skill-inline > i:hover ~ p {
+    color: $skillsColor;
+  }
