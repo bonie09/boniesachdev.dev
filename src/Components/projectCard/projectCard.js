@@ -10,7 +10,7 @@ const ProjectCard = ({title, intro, image, url}) => {
     }
 
     return ( 
-        <Zoom bottom duration={2000}>
+        <Zoom bottom duration={1500}>
             <div className="card" onClick={() => openGithubRepo(url)}>
                 <div>
                     <img src={image} alt={title} />
