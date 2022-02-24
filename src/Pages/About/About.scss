@@ -1,10 +1,29 @@
 @import '../../styles/GlobalStyle.scss';
 
-.title {
-    font-size: $titleSize;
-    color: $titleColor;
+.aboutContainer {
+    display: flex;
+    padding: 20px 0px;
+    margin: 0px auto;
+}
+
+.aboutDetails {
+    padding: 3rem;
+}
+
+.type-writer {
+    font-size: 2rem;
+    text-align: justify;
+    color: $subTitleColor;
     font-family: $fontStyle;
 }
+
+.subtitle {
+    font-size: $subTitleSize;
+    text-align: justify;
+    color: $subTitleColor;
+    font-family: $fontStyle;
+}
+
 .hover-button{
     padding: 1rem 2rem;
     background-color: #55198b;
@@ -31,45 +50,9 @@
         width: 100%;
     }
 }
-.titleDark {
-    font-size: $titleSize;
-    color: $titleColorDark;
-    font-family: $fontStyle;
-}
-.type-writer {
-    font-size: 2rem;
-    text-align: justify;
-    color: $subTitleColor;
-    font-family: $fontStyle;
-}
-.subtitle {
-    font-size: $subTitleSize;
-    text-align: justify;
-    color: $subTitleColor;
-    font-family: $fontStyle;
-}
-
-.subtitleDark {
-    color: $subTitleColorDark;
-}
 
 .lottieConatiner {
     width: 150rem;
-}
-
-.aboutContainer {
-    display: flex;
-    padding: 20px 0px;
-    margin: 0px auto;
-}
-
-.aboutDetails {
-    padding: 20px 0px;
-    margin: 0px auto;
-}
-
-.socialSection {
-    text-align: center;
 }
 
 @keyframes wave-animation {

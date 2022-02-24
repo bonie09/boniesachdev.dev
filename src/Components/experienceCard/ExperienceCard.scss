@@ -1,16 +1,16 @@
 @import '../../styles/GlobalStyle.scss';
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
 
+.subTitle {
+  text-align: justify;
+  color: $subTitleColor;
+  font-family: $fontStyle;
+}
+
 .experience-card {
     font-family: $fontStyle, 'Merriweather';
     display: flex;
     flex-direction: row;
-}
-
-.subTitle {
-    text-align: justify;
-    color: $subTitleColor;
-    font-family: $fontStyle;
 }
 
 .experience-card:hover + .experience-card-border {
@@ -33,21 +33,6 @@
   transition: width 0.6s ease-in-out;
 }
 
-.experience-head {
-  display: flex;
-  flex-direction: row;
-}
-
-.experience-text-company {
-  margin: 0;
-  font-size: 28px;
-  font-weight: 700;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  height: 27px;
-}
-
 .experience-roundedimg {
   object-fit: cover;
   margin-right: 2rem;
@@ -59,6 +44,16 @@
 
 .experience-card-right {
   max-width: 70%;
+}
+
+.experience-text-company {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 27px;
 }
 
 .experience-text-jobtitle {

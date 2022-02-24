@@ -3,7 +3,6 @@ import ProjectCard from '../../Components/projectCard/projectCard';
 import projectsSection from "../../Components/projectsSection/projectsSection";
 import "./Projects.scss";
 
-
 const Projects = () => {
     return (
         <div id="projects">

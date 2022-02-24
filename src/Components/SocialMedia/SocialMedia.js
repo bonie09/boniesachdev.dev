@@ -10,16 +10,16 @@ import "./SocialMedia.scss";
 export default function SocialMedia() {
   return (
     <div className="social-media-div">
-        <a href={'https://www.linkedin.com/in/bonie-sachdev/'} className="icon-button linkedin">
+        <a href={'https://www.linkedin.com/in/bonie-sachdev/'} target="_blank" rel="noreferrer" className="icon-button linkedin">
             <FontAwesomeIcon icon={faLinkedinIn} style={{color: "#0077b5" }}/>
         </a>
-        <a href={'https://github.com/bonie09'} className="icon-button">
+        <a href={'https://github.com/bonie09'} target="_blank" rel="noreferrer" className="icon-button">
             <FontAwesomeIcon icon={faGithub}style={{color: "#171515" }} />
         </a>
-        <a href={'https://leetcode.com/bonie09/'} className="icon-button">
+        <a href={'https://leetcode.com/bonie09/'} target="_blank" rel="noreferrer" className="icon-button">
             <Icon icon={leetcodeIcon} style={{color: "#eb9e10" }}/>
         </a>
-        <a href={"mailto:bonysachdev99@gmail.com"} className="icon-button">
+        <a href={"mailto:bonysachdev99@gmail.com"} target="_blank" rel="noreferrer" className="icon-button">
             <FontAwesomeIcon icon={faGoogle} style={{color: "#BB001B" }}/>
         </a>
     </div>
