@@ -1,4 +1,8 @@
-@import '../../styles/GlobalStyle.scss';
+@import "../../styles/GlobalStyle.scss";
+
+html {
+  scroll-behavior: smooth;
+}
 
 .header {
   background-color: white;
@@ -9,7 +13,7 @@
 }
 
 .headerDark {
-  background-color: #171c28;;
+  background-color: #171c28;
 }
 
 .headerDark li a {
@@ -37,8 +41,7 @@
   text-decoration: none;
 }
 
-
-.header li a:hover, 
+.header li a:hover,
 .header .menuBtn:hover {
   color: $midnightBlue;
   font-weight: bolder;
@@ -56,7 +59,7 @@
 }
 
 .logoNameDark {
-  color: $aquaBlue!important;
+  color: $aquaBlue !important;
 }
 
 .header .logo {
@@ -104,7 +107,7 @@
 
 .header .menuIcon .navicon:before,
 .header .menuIcon .navicon:after {
-  background:$midnightBlue;
+  background: $midnightBlue;
   content: "";
   display: block;
   height: 100%;
@@ -178,7 +181,6 @@
 }
 
 @media (min-width: $tablet) {
-
   .header .logo {
     display: block;
     flex: none;
