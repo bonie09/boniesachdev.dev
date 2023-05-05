@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/boniesachdev.dev/static/css/main.cbb8361d.css",
-    "main.js": "/boniesachdev.dev/static/js/main.90d357c1.js",
+    "main.js": "/boniesachdev.dev/static/js/main.50199167.js",
     "static/js/787.8b7042b1.chunk.js": "/boniesachdev.dev/static/js/787.8b7042b1.chunk.js",
     "static/media/java.png": "/boniesachdev.dev/static/media/java.311ea989dce14b91a4fe.png",
     "static/media/html.png": "/boniesachdev.dev/static/media/html.cf66b53dbb6cf2487504.png",
@@ -17,7 +17,9 @@
     "static/media/react.png": "/boniesachdev.dev/static/media/react.dd495bebcd6f7a294180.png",
     "static/media/css.png": "/boniesachdev.dev/static/media/css.06a2be770163ecb2f657.png",
     "static/media/json.png": "/boniesachdev.dev/static/media/json.f91769ff8f79a44ca970.png",
+    "static/media/numoves.svg": "/boniesachdev.dev/static/media/numoves.1081ab521134e077e4551a4f88cee09c.svg",
     "static/media/c.png": "/boniesachdev.dev/static/media/c.867c839c5bf5b2485832.png",
+    "static/media/notes.svg": "/boniesachdev.dev/static/media/notes.a1b1396670e50842d80c4dc6f6398989.svg",
     "static/media/php.png": "/boniesachdev.dev/static/media/php.2a114a7490af5d023e4c.png",
     "static/media/game.svg": "/boniesachdev.dev/static/media/game.88c365db24f6297de8c4dcf70a34bbd3.svg",
     "static/media/jquery.png": "/boniesachdev.dev/static/media/jquery.e16145ee568c0945ee6d.png",
@@ -28,13 +30,14 @@
     "static/media/portfolio.svg": "/boniesachdev.dev/static/media/portfolio.1b04197f467d232e51fd132ac51fe8ad.svg",
     "static/media/stock.svg": "/boniesachdev.dev/static/media/stock.e380131821eb8be2f23569f7548f47b9.svg",
     "static/media/chat.svg": "/boniesachdev.dev/static/media/chat.f6a17e7aa9a56fa5c217e4883707ab4d.svg",
+    "static/media/athletes.svg": "/boniesachdev.dev/static/media/athletes.24ea8b11ceaf1fe9831062804aa43637.svg",
     "index.html": "/boniesachdev.dev/index.html",
     "main.cbb8361d.css.map": "/boniesachdev.dev/static/css/main.cbb8361d.css.map",
-    "main.90d357c1.js.map": "/boniesachdev.dev/static/js/main.90d357c1.js.map",
+    "main.50199167.js.map": "/boniesachdev.dev/static/js/main.50199167.js.map",
     "787.8b7042b1.chunk.js.map": "/boniesachdev.dev/static/js/787.8b7042b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbb8361d.css",
-    "static/js/main.90d357c1.js"
+    "static/js/main.50199167.js"
   ]
 }
