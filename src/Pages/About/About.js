@@ -9,7 +9,7 @@ import "./About.scss";
 const About = () => {
   const openResume = () => {
     let win = window.open(
-      "https://drive.google.com/file/d/1Pyy0toBFhYWbXbqgm_66QVyy0O1lt_sC/view?usp=sharing",
+      "https://drive.google.com/file/d/1Z-AefuLssyYY28Riq_SOMCfyMhAOCM1X/view?usp=share_link",
       "_blank"
     );
     win.focus();
@@ -25,7 +25,7 @@ const About = () => {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Software Programmer")
+                  .typeString("Software Engineer")
                   .pauseFor(1000)
                   .deleteAll()
                   .typeString("Web Developer")
