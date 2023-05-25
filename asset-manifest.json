@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/boniesachdev.dev/static/css/main.cbb8361d.css",
-    "main.js": "/boniesachdev.dev/static/js/main.3c8f189c.js",
+    "main.js": "/boniesachdev.dev/static/js/main.e7d1b7f9.js",
     "static/js/787.8b7042b1.chunk.js": "/boniesachdev.dev/static/js/787.8b7042b1.chunk.js",
     "static/media/java.png": "/boniesachdev.dev/static/media/java.311ea989dce14b91a4fe.png",
     "static/media/html.png": "/boniesachdev.dev/static/media/html.cf66b53dbb6cf2487504.png",
@@ -33,11 +33,11 @@
     "static/media/athletes.svg": "/boniesachdev.dev/static/media/athletes.24ea8b11ceaf1fe9831062804aa43637.svg",
     "index.html": "/boniesachdev.dev/index.html",
     "main.cbb8361d.css.map": "/boniesachdev.dev/static/css/main.cbb8361d.css.map",
-    "main.3c8f189c.js.map": "/boniesachdev.dev/static/js/main.3c8f189c.js.map",
+    "main.e7d1b7f9.js.map": "/boniesachdev.dev/static/js/main.e7d1b7f9.js.map",
     "787.8b7042b1.chunk.js.map": "/boniesachdev.dev/static/js/787.8b7042b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbb8361d.css",
-    "static/js/main.3c8f189c.js"
+    "static/js/main.e7d1b7f9.js"
   ]
 }
