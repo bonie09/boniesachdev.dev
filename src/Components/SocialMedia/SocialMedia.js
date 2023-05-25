@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Icon } from "@iconify/react";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import leetcodeIcon from "@iconify-icons/simple-icons/leetcode";
+// import leetcodeIcon from "@iconify-icons/simple-icons/leetcode";
 import microsoftoutlookIcon from "@iconify-icons/simple-icons/microsoftoutlook";
 import "./SocialMedia.scss";
 
@@ -26,14 +26,14 @@ export default function SocialMedia() {
       >
         <FontAwesomeIcon icon={faGithub} style={{ color: "#171515" }} />
       </a>
-      <a
+      {/* <a
         href={"https://leetcode.com/bonie09/"}
         target="_blank"
         rel="noreferrer"
         className="icon-button"
       >
         <Icon icon={leetcodeIcon} style={{ color: "#eb9e10" }} />
-      </a>
+      </a> */}
       <a
         href={"mailto:sachdev.bo@northeastern.edu"}
         target="_blank"

@@ -10,13 +10,11 @@ export const experienceInfo = {
       jobtitle: "Associate Software Engineer",
       duration: "January 2021 - April 2022",
       descBullets: [
-        "Provided server support and application support for IBM Maximo Application",
-        "Improved server response time using the Dynatrace monitoring dashboard",
-
-        "Performed code migrations on developer fixes to QA & Production Environment",
-        "Renewed multiple SSL certificates for the client servers using Venafi",
-        "Experienced in Jenkins and Bitbucket for maintaining the builds and CI/CD automation deployment pipelines",
-        "Designed a webpage to bring down all the mandatory links into a one page which reduced the workload of team by 70%",
+        "Developed and deployed a centralized web application using ReactJS Framework in a team of 15; consolidated mandatory links and boosted team productivity by reducing time spent searching for links and information",
+        "Created Maximo applications using Java, JavaScript, ASP.NET and Maximo's application designer to improve asset management; reduced maintenance response time by 25%",
+        "Streamlined workflows by identifying bottlenecks, optimizing processes, and creating self - service solutions that reduced ticket resolution time by 40 % and elevated customer satisfaction by 25 %",
+        "Enhanced the deployment process by introducing Jenkins automation; cut down release time from 2 hours to 45 minutes, resulting in a 30% increase in the deployment frequency",
+        "Honored with the ‘Pinnacle Rising Star Award’ for outstanding performance amongst a team of 8",
       ],
     },
     {
@@ -25,9 +23,9 @@ export const experienceInfo = {
       jobtitle: "Web Development Intern",
       duration: "December 2018 - February 2019",
       descBullets: [
-        "Developed a chartered accountant website which included phases from requirement gatherings and analysis to implementation of front-end as well as back-end web development skills like HTML5, CSS3, MySQL, and PHP",
-        "Created an employee and vendor data management component for a client's ERP system. This resulted in the elimination of 30-35 weekly person hours of manual record-saving",
-        "Technologies used: HTML5, CSS3, JavaScript, jQuery, AJAX, PHP, MySQL, LARAVEL PHP Framework",
+        "Designed and built a data management module within the client's ERP system using Laravel that automated tracking of employee and vendor records; minimized weekly manual efforts by 30-35 hours and improved accuracy by 80%",
+        "Spearheaded full-stack development of a Chartered Accountant web application that optimized tax filing for users using 100+ tax forms; integrated PHP mailer for seamless communication",
+        "Led the end-to-end development of a web-based application that simplified task tracking and communication using HTML, CSS, JavaScript, PHP, and MySQL; delivered 90% of projects on time",
       ],
     },
   ],
