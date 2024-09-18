@@ -40,13 +40,17 @@ const About = () => {
             />
           </h1>
           <p className="subtitle">
-            Currently pursing Masters in Information Systems at Northeastern
-            University. I have worked for 1.4 years in Accenture Solutions Pvt
-            Ltd as an Associate Software Engineer. I have expertise in web
-            technologies and object oriented programming languages. I'm seeking
-            a chance to use my expertise and enthusiasm for web technologies to
-            improve software design so that it solves issues, goes above and
-            beyond expectations, and turns leads into devoted customers.
+            Currently pursuing a Master's in Computer Software Engineering at
+            Northeastern University, with graduation in December 2024. My
+            expertise spans both frontend and backend development, focusing on
+            building high-performance, scalable applications. At Quickbase, I
+            contributed to optimizing grid component performance by 50%,
+            implemented customizable features using React.js and C++, and
+            streamlined CI/CD pipelines with AWS. During my time at Accenture, I
+            developed centralized web applications using Java and React.js, and
+            earned the 'Pinnacle Rising Star Award' for outstanding performance.
+            My technical skills include Java, React.js, AWS, Docker, and CI/CD
+            practices.
           </p>
           <button className="hover-button" onClick={openResume}>
             <span>See My Resume</span>

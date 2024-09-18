@@ -1,9 +1,23 @@
 import accenture from "../../images/companies images/accenture.png";
 import sarvaswa from "../../images/companies images/sarvaswa.png";
+import quickbase from "../../images/companies images/quickbase.png";
 
 export const experienceInfo = {
   title: "Experience",
   companies: [
+    {
+      companyName: "Quickbase",
+      image: quickbase,
+      jobtitle: "Software Engineer Co-op",
+      duration: "January 2024 - June 2024",
+      descBullets: [
+        "Developed a column resizing feature for grid components using React.js and Redux in Docker containers, which resulted in a 50% improvement in the efficiency of header components, enhancing the user experience with smoother adjustments",
+        "Implemented a density spacing feature in React.js and C++, allowing users to choose grid styling options and storing preferences via GraphQL, enhancing keyboard and voice-over accessibility for more user-friendly experience",
+        "Configured CI/CD pipelines with GitHub Actions for streamlined build, test, and deployment processes, and deployed 1,000+ summary-report versions using AWS CloudFormation",
+        "Automated performance testing with Playwright on data sets ranging from 500x6 to 32,000x26 rows & columns and conducted cross-browser testing (Chromium, Firefox, WebKit), ensuring efficient performance and optimal grid load times across large datasets",
+        "Achieved 80% code coverage by crafting thorough robust Jest tests, squashing major bugs, and maintaining top-notch code quality",
+      ],
+    },
     {
       companyName: "Accenture Solutions Pvt. Ltd.",
       image: accenture,
